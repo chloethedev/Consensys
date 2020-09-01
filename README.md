@@ -5,7 +5,7 @@ Code from the 2020 Consensys Blockchain Course
 
 ### Psudo Code
 **The general idea**
-- Mintbase fork that creates: "The MarmaJ Factory"! Allows artists to "mint" for free; (Using arkwaeve? / some value is locked in the NFT factory for "b" blocks).
+- Mintbase fork that creates: "The MarmaJ Factory"! Allows artists to "mint" for free; (EIP-1155: https://eips.ethereum.org/EIPS/eip-1155  / some value is locked in the NFT factory for "b" blocks).
 - First mint brings NFT to L1 from L2 and sets price; (.1 ETH for now).
 - newNFTprice = * 1.1 NFTprice; (price increase of 10%$ after each mint).
 - 80% of saleValue is transfered to artist; (artist mints for free and gets paid like normal, but 20% less).
